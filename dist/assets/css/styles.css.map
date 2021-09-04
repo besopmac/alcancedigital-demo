@@ -1,0 +1,1 @@
+{"version":3,"sources":["init/_global.scss","styles.scss","styles.css"],"names":[],"mappings":"AAAA,KACE,UAAA,CCEA,sBCDF","file":"styles.css","sourcesContent":["body {\n  color: #333;\n}","@import 'init/global';\n\nbody {\n  font-family: sans-serif;\n}","body {\n  color: #333;\n}\n\nbody {\n  font-family: sans-serif;\n}"]}
