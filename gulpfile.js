@@ -52,5 +52,11 @@ function watchTask(){
   watch(['src/assets/scss/**/*.scss', 'src/assets/js/**/*.js'], series(scssTask, jsTask, browsersyncReload));
 }
 
+// Build 
+function build(cb) {
+  cb();
+}
+
 // Gulp Default
+exports.build = build;
 exports.default = series(parallel(imageTask, jsTask, scssTask, browsersyncServe), watchTask);
